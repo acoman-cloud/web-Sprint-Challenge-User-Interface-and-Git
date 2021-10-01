@@ -38,7 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 	2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-
+		Block always stretches as far as its container is and block has a margin. Inline does neither of these things.
 
 	3. What are the 4 areas of the box model?
 
