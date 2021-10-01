@@ -57,7 +57,9 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
+body{
+    font-size: 1.6rem;
+}
 h1, h2, h3, h4, h5 {
     font-size: 1.8rem;
     margin-bottom: 15px;
@@ -68,14 +70,14 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.container{
     width: 800px;
     margin: 0 auto;
 }
 
 header {
     width: 100%;
-    
+    padding-bottom: 1.25%;
 }
 
 header nav {
@@ -84,15 +86,18 @@ header nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 20px 0;
     font-size: 1.4rem;
+
 }
 
 header nav a {
-    margin: 0 7%;
+    margin: 4% 9%;
     text-decoration: none;
     color:black;
-    font-weight: bold;
+}
+header nav img{
+    padding: 0 0;
 }
 
 .top-content {
@@ -105,37 +110,100 @@ header nav a {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 3% 1%;
+    padding-bottom: 20px;
+    font-size:1.6rem;
+}
+
+.top-content .text-containerAbout{
+    width:96%;
+    padding: 2.5% .5%;
+    padding-bottom: 20px;
 }
 
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-.middle-content h2 {
+.middle-contentAbout{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.middle-content h2{
     padding: 0 2%;
     margin-bottom: 0;
 }
+ .middle-contentAbout h2 {
+     padding: 0 0;
+     margin: 5% 0;
+     text-align: left;
+ }
 
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    font-size: 1.6rem;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.middle-contentAbout .cols{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.middle-contentAbout .cols .sq{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2.5% 0;
+    border-bottom: 1px dashed black;
+}
 
+.middle-contentAbout .cols .sq button{
+    margin: 5% 0;
+}
+.teal{
+    background:teal;
+}
+.gold{
+    background: gold;
+}
+.cadetblue{
+    background: cadetblue;
+}
+.coral{
+    background: coral;
+}
+.crimson{
+    background: crimson;
+}
+.forestgreen{
+    background: forestgreen;
+}
+.darkorchid{
+    background: darkorchid;
+}
+.hotpink{
+    background: hotpink;
+}
+.indigo{
+    background: indigo;
+}
+.dodgerblue{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -144,6 +212,7 @@ header nav a {
 
 .bottom-content .text-container {
     padding-right: 4%;
+    font-size:1.6rem;
 }
 
 .bottom-content .text-container:last-child {
@@ -167,4 +236,14 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+button{
+    background-color: #fff; /* Green */
+    border: 2px solid black;
+    color: black;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
 }
