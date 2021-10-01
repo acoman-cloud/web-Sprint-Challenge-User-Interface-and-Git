@@ -104,7 +104,7 @@ header nav img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px dashed black;
 }
 
@@ -122,10 +122,12 @@ header nav img{
 }
 
 .middle-content {
+    margin-top: 10px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 .middle-contentAbout{
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -159,20 +161,23 @@ header nav img{
 .middle-contentAbout .cols{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .middle-contentAbout .cols .sq{
-    width: 50%;
+    width: 46%;
+    margin: 0 1.5%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    padding: 2.5% 0;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom:2%;
     border-bottom: 1px dashed black;
 }
 
 .middle-contentAbout .cols .sq button{
-    margin: 5% 0;
+    margin: .75% 0;
+    margin-top: 5%;
 }
 .teal{
     background:teal;
@@ -210,6 +215,10 @@ header nav img{
     justify-content: space-around;
 }
 
+.bottom-content-about {
+    margin: 5% 2.5%;
+}
+
 .bottom-content .text-container {
     padding-right: 4%;
     font-size:1.6rem;
@@ -241,7 +250,7 @@ button{
     background-color: #fff; /* Green */
     border: 2px solid black;
     color: black;
-    padding: 8px 22px;
+    padding: 9px 22px;
     text-align: center;
     text-decoration: none;
     font-size: 1.5rem;
