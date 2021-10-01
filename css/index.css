@@ -86,13 +86,13 @@ header nav {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 0 0;
     font-size: 1.4rem;
-
 }
 
 header nav a {
     margin: 4% 9%;
+    padding:10% 0 4%;
     text-decoration: none;
     color:black;
 }
